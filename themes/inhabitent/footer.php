@@ -13,12 +13,12 @@
 			<div class="footer-container">
 				<div class="contact">
 					<h3>contact info</h3>
-					<p><a href="mailto:info@inhabitent.com">info@inhabitent.com</a></p>
-					<p><a href="tel:778-456-7891">778-456-7891</a></p>
+					<p><i class="fas fa-envelope"></i><a href="mailto:info@inhabitent.com">info@inhabitent.com</a></p>
+					<p><i class="fas fa-phone-alt"></i><a href="tel:778-456-7891">778-456-7891</a></p>
 					<p>
-						<span></span>
-						<span></span>
-						<span></span>
+						<span><i class="fab fa-facebook-square"></i></span>
+						<span><i class="fab fa-twitter-square"></i></span>
+						<span><i class="fab fa-google-plus-square"></i></span>
 					</p>
 				</div>
 				<div class="hours">
@@ -27,9 +27,9 @@
 					<p>saturday: 10am to 2pm</p>
 					<p>sunday: closed</p>
 				</div>
-				<img src="<?php echo get_stylesheet_directory_uri();?>/project-04/images/logos/inhabitent-logo-text.svg?>" alt="inhabitent footer logo">
+				<img class="footer-logo" src="<?php echo get_stylesheet_directory_uri();?>/project-04/images/logos/inhabitent-logo-text.svg?>" alt="inhabitent footer logo">
 			</div>
-			<p class="copyright"><span>copyright</span>&copy; 2019 <span>inhabitent</span></p>
+			<p class="copyright">copyright &copy; 2019 inhabitent</p>
 		</footer>		
 	</div><!-- #page -->
 

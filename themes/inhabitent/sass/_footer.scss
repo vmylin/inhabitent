@@ -1,0 +1,37 @@
+.site-footer {
+  background-image: url("../../../inhabitent/project-04/images/dark-wood@2x.png");
+  .footer-container {
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    .contact {
+      padding-right: 2rem;
+      i {
+        padding-right: 1rem;
+      }
+    }
+    .hours {
+      text-transform: capitalize;
+    }
+    h3 {
+      text-transform: uppercase;
+    }
+    .hours {
+      flex-grow: 2;
+    }
+    .footer-logo {
+      width: 25%;
+      height: 15%;
+      padding-top: 1.8rem;
+    }
+  }
+
+  .copyright {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+  }
+}

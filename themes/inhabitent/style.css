@@ -670,6 +670,9 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+body {
+  font-size: 1em; }
+
 .site-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -677,3 +680,45 @@ object {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+.site-footer {
+  background-image: url("../../../inhabitent/project-04/images/dark-wood@2x.png"); }
+  .site-footer .footer-container {
+    width: 1120px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+    .site-footer .footer-container .contact {
+      padding-right: 2rem; }
+      .site-footer .footer-container .contact i {
+        padding-right: 1rem; }
+    .site-footer .footer-container .hours {
+      text-transform: capitalize; }
+    .site-footer .footer-container h3 {
+      text-transform: uppercase; }
+    .site-footer .footer-container .hours {
+      -webkit-box-flex: 2;
+          -ms-flex-positive: 2;
+              flex-grow: 2; }
+    .site-footer .footer-container .footer-logo {
+      width: 25%;
+      height: 15%;
+      padding-top: 1.8rem; }
+  .site-footer .copyright {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0; }
+
+.widget_archive ul {
+  margin: 0;
+  padding: 0; }
+  .widget_archive ul li {
+    list-style: none; }
