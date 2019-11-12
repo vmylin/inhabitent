@@ -681,6 +681,9 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.site-main {
+  width: 1120px; }
+
 .site-footer {
   background-image: url("../../../inhabitent/project-04/images/dark-wood@2x.png"); }
   .site-footer .footer-container {
