@@ -24,7 +24,7 @@
 				<div class="site-branding">
 					<div class="logo">
 						<a>
-							<img src="<?php echo get_stylesheet_directory_uri();?>/project-04/images/logos/inhabitent-logo-tent.svg?>" alt="">
+							<img src="<?php echo get_stylesheet_directory_uri();?>/project-04/images/logos/inhabitent-logo-tent.svg?>" alt="inhabitent header logo">
 						</a>
 					</div>
 				</div><!-- .site-branding -->

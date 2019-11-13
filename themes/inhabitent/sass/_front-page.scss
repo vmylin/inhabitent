@@ -1,0 +1,14 @@
+.hero-img {
+  position: relative;
+  .wp-post-image {
+    height: 100vh;
+  }
+  .hero-logo {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    margin-top: -186px;
+    margin-left: -126px;
+  }
+}

@@ -1,3 +1,8 @@
-.site-main {
+.about-desc {
   width: 1120px;
+  margin: 0 auto;
+  p:nth-child(1),
+  p:nth-child(4) {
+    text-align: center;
+  }
 }

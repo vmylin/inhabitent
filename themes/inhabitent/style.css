@@ -670,6 +670,18 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.hero-img {
+  position: relative; }
+  .hero-img .wp-post-image {
+    height: 100vh; }
+  .hero-img .hero-logo {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    margin-top: -186px;
+    margin-left: -126px; }
+
 body {
   font-size: 1em; }
 
@@ -681,8 +693,12 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.site-main {
-  width: 1120px; }
+.about-desc {
+  width: 1120px;
+  margin: 0 auto; }
+  .about-desc p:nth-child(1),
+  .about-desc p:nth-child(4) {
+    text-align: center; }
 
 .site-footer {
   background-image: url("../../../inhabitent/project-04/images/dark-wood@2x.png"); }

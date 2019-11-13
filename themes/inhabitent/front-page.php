@@ -16,14 +16,16 @@
 
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-		<?php endif; ?>
+        <?php endif; ?>
+        <div class="hero-img">
         <?php 
             if ( has_post_thumbnail() ) {
                 the_post_thumbnail();
             } 
             the_content();
         ?>
-
+        <img class="hero-logo" src="<?php echo get_stylesheet_directory_uri();?>/project-04/images/logos/inhabitent-logo-full.svg" alt="inhabitent hero logo">
+        </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
