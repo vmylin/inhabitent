@@ -672,8 +672,6 @@ object {
 /* Front page */
 .hero-img {
   position: relative; }
-  .hero-img .wp-post-image {
-    height: 100vh; }
   .hero-img .hero-logo {
     position: absolute;
     z-index: 99;
@@ -681,6 +679,11 @@ object {
     left: 50%;
     margin-top: -186px;
     margin-left: -126px; }
+
+.front-page-wrapper {
+  width: 1120px;
+  margin: 0 auto;
+  display: grid; }
 
 body {
   font-size: 1em; }

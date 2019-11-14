@@ -36,3 +36,5 @@ function custom_login_url($url) {
 	return get_option('home');
 }
 add_filter('login_headerurl','custom_login_url');
+
+add_theme_support( 'post-thumbnails' );
