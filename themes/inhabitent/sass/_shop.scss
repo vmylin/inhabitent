@@ -1,0 +1,20 @@
+.products-grid {
+  width: 1120px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  border-top: 1px dashed #c8c8c8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 3rem;
+  .products {
+    img {
+      width: 100vw;
+    }
+    p {
+      margin: 0;
+      padding: 2rem;
+      border: 1px solid #e1e1e1;
+    }
+  }
+}

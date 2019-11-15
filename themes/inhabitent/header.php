@@ -31,6 +31,12 @@
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo esc_html( 'Primary Menu' ); ?></button>
+					<div class="logo">
+						<a>
+							<img src="<?php echo get_stylesheet_directory_uri();?>/project-04/images/logos/inhabitent-logo-tent.svg?>" alt="inhabitent header logo">
+						</a>
+					</div>
+
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 				</nav><!-- #site-navigation -->
 				<div class="search-form"><?php echo get_search_form();?></div>

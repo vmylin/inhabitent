@@ -700,6 +700,45 @@ body {
   .about-desc p:nth-child(4) {
     text-align: center; }
 
+.widget_archive ul {
+  margin: 0;
+  padding: 0; }
+  .widget_archive ul li {
+    list-style: none; }
+
+.products-grid {
+  width: 1120px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  border-top: 1px dashed #c8c8c8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 3rem; }
+  .products-grid .products img {
+    width: 100vw; }
+  .products-grid .products p {
+    margin: 0;
+    padding: 2rem;
+    border: 1px solid #e1e1e1; }
+
+.product {
+  margin: 0 auto;
+  width: 1120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem; }
+  .product .entry-content {
+    margin: 0; }
+  .product button {
+    background-color: white;
+    border-radius: 0;
+    border: 1px solid #000; }
+  .product h1 {
+    margin-top: 0; }
+  .product p {
+    margin: 0; }
+
 .site-footer {
   background-image: url("../../../inhabitent/project-04/images/dark-wood@2x.png"); }
   .site-footer .footer-container {
@@ -734,27 +773,4 @@ body {
   .site-footer .copyright {
     text-transform: uppercase;
     text-align: center;
-    margin: 0; }
-
-.widget_archive ul {
-  margin: 0;
-  padding: 0; }
-  .widget_archive ul li {
-    list-style: none; }
-
-.product {
-  margin: 0 auto;
-  width: 1120px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 3rem; }
-  .product .entry-content {
-    margin: 0; }
-  .product button {
-    background-color: white;
-    border-radius: 0;
-    border: 1px solid #000; }
-  .product h1 {
-    margin-top: 0; }
-  .product p {
     margin: 0; }
