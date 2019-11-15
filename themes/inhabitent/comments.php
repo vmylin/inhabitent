@@ -32,7 +32,7 @@ if ( post_password_required() ) {
 				<div class="nav-previous"><?php previous_comments_link( esc_html( 'Older Comments' ) ); ?></div>
 				<div class="nav-next"><?php next_comments_link( esc_html( 'Newer Comments' ) ); ?></div>
 
-			</div><!-- .nav-links -->
+			</div>.nav-links
 		</nav><!-- #comment-nav-above -->
 		<?php endif; // Check for comment navigation. ?>
 

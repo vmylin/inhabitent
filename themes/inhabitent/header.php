@@ -22,17 +22,12 @@
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="site-branding">
-					<div class="logo">
-						<a>
-							<img src="<?php echo get_stylesheet_directory_uri();?>/project-04/images/logos/inhabitent-logo-tent.svg?>" alt="inhabitent header logo">
-						</a>
-					</div>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo esc_html( 'Primary Menu' ); ?></button>
 					<div class="logo">
-						<a>
+						<a href="<?php bloginfo('url')?>">
 							<img src="<?php echo get_stylesheet_directory_uri();?>/project-04/images/logos/inhabitent-logo-tent.svg?>" alt="inhabitent header logo">
 						</a>
 					</div>

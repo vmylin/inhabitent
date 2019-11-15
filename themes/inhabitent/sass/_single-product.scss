@@ -1,0 +1,21 @@
+.product {
+  margin: 0 auto;
+  width: 1120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  .entry-content {
+    margin: 0;
+  }
+  button {
+    background-color: white;
+    border-radius: 0;
+    border: 1px solid #000;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  p {
+    margin: 0;
+  }
+}

@@ -693,6 +693,17 @@ object {
 body {
   font-size: 1em; }
 
+.hero-about {
+  position: relative; }
+  .hero-about .wp-post-image {
+    height: 100vh; }
+  .hero-about .about-title {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px; }
+
 .about-desc {
   width: 1120px;
   margin: 0 auto; }
@@ -705,6 +716,33 @@ body {
   padding: 0; }
   .widget_archive ul li {
     list-style: none; }
+
+.journal-page {
+  width: 1120px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.journal-posts {
+  padding-right: 5rem; }
+  .journal-posts .entry-header {
+    position: relative; }
+    .journal-posts .entry-header .journal-title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #248a83; }
+    .journal-posts .entry-header .entry-meta {
+      position: absolute;
+      bottom: 0;
+      left: 330px;
+      background-color: #248a83; }
+  .journal-posts .entry-content {
+    width: 640px; }
 
 .products-grid {
   width: 1120px;
@@ -722,6 +760,25 @@ body {
     padding: 2rem;
     border: 1px solid #e1e1e1; }
 
+.journal-page {
+  width: 1120px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .journal-page .journal-n-comments {
+    border-right: 1px solid #e1e1e1; }
+  .journal-page .comment-author-avatar img {
+    border-radius: 40px; }
+
+.journal-posts {
+  padding-right: 5rem; }
+  .journal-posts .entry-content {
+    width: 640px; }
+
 .product {
   margin: 0 auto;
   width: 1120px;
@@ -737,6 +794,22 @@ body {
   .product h1 {
     margin-top: 0; }
   .product p {
+    margin: 0; }
+
+.contact-page {
+  width: 1120px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .contact-page .contact-content .entry-content {
+    width: 760px; }
+  .contact-page .contact-content p {
+    text-transform: uppercase; }
+  .contact-page .contact-content figure {
     margin: 0; }
 
 .site-footer {

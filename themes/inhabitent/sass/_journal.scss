@@ -1,0 +1,28 @@
+.journal-page {
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.journal-posts {
+  padding-right: 5rem;
+  .entry-header {
+    position: relative;
+    .journal-title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #248a83;
+    }
+    .entry-meta {
+      position: absolute;
+      bottom: 0;
+      left: 330px;
+      background-color: #248a83;
+    }
+  }
+  .entry-content {
+    width: 640px;
+  }
+}

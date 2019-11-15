@@ -21,7 +21,7 @@ get_header(); ?>
 			<div class="products-grid">
 				<?php while ($shop->have_posts() ) : $shop->the_post();?>
 					<div class="products">
-						<a href="http://localhost/inhabitent/wordpress/product/<?php the_title();?>"><?php the_post_thumbnail('medium');?></a>
+						<a href="<?php echo get_permalink();?>"><?php the_post_thumbnail('medium');?></a>
 
 						<p><?php the_title();?>$ <?php the_field('price')?></p>
 					</div>

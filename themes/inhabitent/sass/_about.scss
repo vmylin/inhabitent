@@ -1,3 +1,17 @@
+.hero-about {
+  position: relative;
+  .wp-post-image {
+    height: 100vh;
+  }
+  .about-title {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    // margin-top: -186px;
+    margin-left: -50px;
+  }
+}
 .about-desc {
   width: 1120px;
   margin: 0 auto;
