@@ -672,6 +672,8 @@ object {
 /* Front page */
 .hero-img {
   position: relative; }
+  .hero-img .wp-post-image {
+    height: 100vh; }
   .hero-img .hero-logo {
     position: absolute;
     z-index: 99;
@@ -682,19 +684,14 @@ object {
 
 .front-page-wrapper {
   width: 1120px;
-  margin: 0 auto;
-  display: grid; }
+  margin: 0 auto; }
+  .front-page-wrapper .journals {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
 
 body {
   font-size: 1em; }
-
-.site-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
 
 .about-desc {
   width: 1120px;
@@ -744,3 +741,20 @@ body {
   padding: 0; }
   .widget_archive ul li {
     list-style: none; }
+
+.product {
+  margin: 0 auto;
+  width: 1120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem; }
+  .product .entry-content {
+    margin: 0; }
+  .product button {
+    background-color: white;
+    border-radius: 0;
+    border: 1px solid #000; }
+  .product h1 {
+    margin-top: 0; }
+  .product p {
+    margin: 0; }

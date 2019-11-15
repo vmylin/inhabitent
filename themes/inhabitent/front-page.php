@@ -33,12 +33,13 @@
 		);
 		$journal = new WP_Query($arg);?>
 		<div class="front-page-wrapper">
+		<div class="journals">
 		<?php if ( $journal->have_posts() ) : ?>
 
 		<?php while ( $journal->have_posts() ) : $journal->the_post(); ?>
 			<div class="single-journal">
 				<div class="journal-img">
-					<?php the_post_thumbnail('medium');//set_post_thumbnail_size(100,100,array( 'center', 'center')));?>
+					<?php the_post_thumbnail(set_post_thumbnail_size(800,800,array( 'center', 'center')));?>
 				</div>
 				<?php $comment_number = get_comments_number(); ?>
 
@@ -57,6 +58,7 @@
 				<h2>Nothing found!</h2>
 
 			<?php endif; ?>
+			</div>
 		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
