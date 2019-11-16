@@ -1,7 +1,7 @@
 .hero-img {
   position: relative;
   .wp-post-image {
-    height: 100vh;
+    height: auto;
   }
   .hero-logo {
     position: absolute;
@@ -17,5 +17,19 @@
   margin: 0 auto;
   .journals {
     display: flex;
+    .single-journal {
+      flex-grow: 1;
+    }
+    .journal-img {
+      height: 300px;
+      overflow: hidden;
+    }
+    .journal-container {
+      height: 200px;
+    }
+    img {
+      height: 100%;
+      width: auto;
+    }
   }
 }

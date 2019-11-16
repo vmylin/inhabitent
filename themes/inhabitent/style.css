@@ -673,7 +673,7 @@ object {
 .hero-img {
   position: relative; }
   .hero-img .wp-post-image {
-    height: 100vh; }
+    height: auto; }
   .hero-img .hero-logo {
     position: absolute;
     z-index: 99;
@@ -689,6 +689,18 @@ object {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+    .front-page-wrapper .journals .single-journal {
+      -webkit-box-flex: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1; }
+    .front-page-wrapper .journals .journal-img {
+      height: 300px;
+      overflow: hidden; }
+    .front-page-wrapper .journals .journal-container {
+      height: 200px; }
+    .front-page-wrapper .journals img {
+      height: 100%;
+      width: auto; }
 
 body {
   font-size: 1em; }
