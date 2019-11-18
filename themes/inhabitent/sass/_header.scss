@@ -2,7 +2,7 @@
   width: 1120px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 5fr 4fr;
+  grid-template-columns: 1fr 5fr 5fr;
   .logo {
     justify-self: stretch;
     align-self: center;
@@ -12,8 +12,8 @@
   }
   .main-navigation {
     grid-column: 3;
-    align-self: center;
     li {
+      align-self: center;
       padding-right: 1rem;
     }
   }

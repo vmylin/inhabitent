@@ -3,17 +3,21 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  .journal-n-comments {
-    border-right: 1px solid #e1e1e1;
+}
+.journal-n-comments {
+  padding-right: 3rem;
+  border-right: $grey-border;
+  & img {
+    width: 100%;
   }
+
+  .journal-posts {
+    padding: 0;
+    border: none;
+    width: 690px;
+  }
+
   .comment-author-avatar img {
     border-radius: 40px;
-  }
-}
-.journal-posts {
-  padding-right: 5rem;
-
-  .entry-content {
-    width: 640px;
   }
 }

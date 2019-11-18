@@ -28,7 +28,7 @@
 		</div>
 		<div class="front-page-wrapper">
 
-			<section class="product-info container">
+			<section class="product-info">
 				<h2>Shop Stuff</h2>
 				<?php
 				$terms = get_terms(array(
@@ -37,10 +37,10 @@
 				));
 				if (!empty($terms) && !is_wp_error($terms)) : //not empty and not error
 					?>
-					<div class="product-type-blocks">
+					<div class="product-type">
 						<?php foreach ($terms as $term) : ?>
-							<div class="product-type-block-wrapper">
-								<img src="<?php echo get_template_directory_uri() . '/project-04/images/product-type-icons/' . $term->slug; ?>.svg" alt="<?php echo $term->name; ?>" />
+							<div class="product-icon">
+								<img class="<?php echo $term->name; ?>" src="<?php echo get_template_directory_uri() . '/project-04/images/product-type-icons/' . $term->slug; ?>.svg" alt="<?php echo $term->name; ?>" />
 								<p><?php echo $term->description; ?></p>
 								<p><a href="<?php echo get_term_link($term); ?>" class="btn"><?php echo $term->name; ?> Stuff</a></p>
 							</div>
@@ -70,7 +70,7 @@
 
 								<p><?php the_date(); ?> / <?php comments_number('0 Comments', '1 Comment', $comment_number . ' Comments'); ?></p>
 
-								<h2><?php the_title(); ?></h2>
+								<h3><?php the_title(); ?></h3>
 							</div>
 						</div>
 					<?php endwhile; ?>
@@ -85,7 +85,29 @@
 
 				<?php endif; ?>
 			</div>
-		</div>
+			<section class="page-adv">
+				<h2>Latest Adventures</h2>
+				<div class="adventure">
+					<div class="canoe">
+						<p>Getting Back to Nature in a Canoe</p>
+						<a href="#">Read more</a>
+					</div>
+					<div class="beach">
+						<p>A Night with Friends at the Beach</p>
+						<a href="#">Read more</a>
+					</div>
+					<div class="view">
+						<p>Taking in the View at Big Mountain</p>
+						<a href="#">Read more</a>
+					</div>
+					<div class="gaze">
+						<p>Star-Gazing at the Night Sky</p>
+						<a href="#">Read more</a>
+					</div>
+					<a href="#" class='adv-btn'>More Adventures</a>
+				</div>
+			</section>
+		</div><!-- end of front page wrapper -->
 	</main><!-- #main -->
 </div><!-- #primary -->
 

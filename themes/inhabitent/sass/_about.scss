@@ -1,7 +1,9 @@
 .hero-about {
+  margin-top: -82px;
+  z-index: -1;
   position: relative;
   .wp-post-image {
-    height: 100vh;
+    height: auto;
   }
   .about-title {
     position: absolute;

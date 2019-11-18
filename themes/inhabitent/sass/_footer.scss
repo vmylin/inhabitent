@@ -1,5 +1,8 @@
 .site-footer {
   background-image: url("../../../inhabitent/project-04/images/dark-wood@2x.png");
+  background-size: 512px 512px;
+  padding: 2rem 0;
+  color: #fff;
   .footer-container {
     width: 1120px;
     margin: 0 auto;
@@ -12,12 +15,17 @@
       i {
         padding-right: 1rem;
       }
+      & a {
+        color: #fff;
+        text-decoration: none;
+      }
     }
     .hours {
-      text-transform: capitalize;
+      text-transform: $capitalize;
     }
     h3 {
-      text-transform: uppercase;
+      color: $orange-brand;
+      text-transform: $uppercase;
     }
     .hours {
       flex-grow: 2;
@@ -30,7 +38,8 @@
   }
 
   .copyright {
-    text-transform: uppercase;
+    font-family: "Novecento Sans Web";
+    text-transform: $uppercase;
     text-align: center;
     margin: 0;
   }

@@ -1,5 +1,7 @@
 .hero-img {
+  margin-top: -82px;
   position: relative;
+  z-index: -1;
   .wp-post-image {
     height: auto;
   }
@@ -17,6 +19,31 @@
   margin: 0 auto;
   h2 {
     text-transform: uppercase;
+    text-align: center;
+  }
+  .product-type {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    .product-icon {
+      display: grid;
+      grid-template-rows: 25% 1fr 20%;
+      border-color: #e1e1e1;
+      border-style: solid;
+      border-width: 5px 1px 1px 1px;
+
+      img {
+        width: 70px;
+        justify-self: center;
+      }
+      p {
+        text-align: center;
+        padding: 0 1rem;
+      }
+      .btn {
+        text-transform: capitalize;
+      }
+    }
   }
   .journals {
     display: flex;
@@ -24,7 +51,7 @@
       &:nth-child(2) {
         margin: 0 1.6rem;
       }
-      flex-grow: 1;
+      flex-grow: 2;
       .journal-img {
         height: 300px;
         overflow: hidden;
@@ -33,6 +60,12 @@
         border-color: #e1e1e1;
         border-style: solid;
         border-width: 5px 1px 1px 1px;
+        h3 {
+          margin: 0;
+        }
+        p {
+          margin: 0;
+        }
       }
       .journal-container {
         height: 200px;
@@ -41,6 +74,40 @@
         height: 100%;
         width: auto;
       }
+    }
+  }
+  .adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 12fr 12fr;
+    grid-template-areas:
+      "canoe canoe beach beach"
+      "canoe canoe view gaze";
+    grid-gap: 10px;
+    height: 555px;
+    .canoe {
+      grid-area: canoe;
+      background-image: url("../../../inhabitent/project-04/images/adventure-photos/canoe-girl.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .beach {
+      grid-area: beach;
+      background-image: url("../../../inhabitent/project-04/images/adventure-photos/beach-bonfire.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .view {
+      grid-area: view;
+      background-image: url("../../../inhabitent/project-04/images/adventure-photos/mountain-hikers.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .gaze {
+      grid-area: gaze;
+      background-image: url("../../../inhabitent/project-04/images/adventure-photos/night-sky.jpg");
+      background-size: cover;
+      background-position: center;
     }
   }
 }

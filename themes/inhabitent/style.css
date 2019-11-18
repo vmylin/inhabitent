@@ -43,6 +43,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
+@import url(../../project-04/fonts/Merriweather/style.css);
+@import url(../../project-04/fonts/Novecento/style.css);
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -225,48 +227,6 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
-@font-face {
-  font-family: "Merriweather Web";
-  src: url("../project-04/fonts/Merriweather/fonts/merriweather-light-webfont.eot");
-  src: url("../project-04/fonts/Merriweather/fonts/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("../project-04/fonts/Merriweather/fonts/merriweather-light-webfont.woff2") format("woff2"), url("../project-04/fonts/Merriweather/fonts/merriweather-light-webfont.woff") format("woff"), url("../project-04/fonts/Merriweather/fonts/merriweather-light-webfont.ttf") format("truetype"), url("../project-04/fonts/Merriweather/fonts/merriweather-light-webfont.svg#merriweatherlight") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Merriweather Web";
-  src: url("../project-04/fonts/Merriweather/fonts/merriweather-lightitalic-webfont.eot");
-  src: url("../project-04/fonts/Merriweather/fonts/merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../project-04/fonts/Merriweather/fonts/merriweather-lightitalic-webfont.woff2") format("woff2"), url("../project-04/fonts/Merriweather/fonts/merriweather-lightitalic-webfont.woff") format("woff"), url("../project-04/fonts/Merriweather/fonts/merriweather-lightitalic-webfont.ttf") format("truetype"), url("../project-04/fonts/Merriweather/fonts/merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
-  font-weight: normal;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Merriweather Web";
-  src: url("../project-04/fonts/Merriweather/fonts/merriweather-bold-webfont.eot");
-  src: url("../project-04/fonts/Merriweather/fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../project-04/fonts/Merriweather/fonts/merriweather-bold-webfont.woff2") format("woff2"), url("../project-04/fonts/Merriweather/fonts/merriweather-bold-webfont.woff") format("woff"), url("../project-04/fonts/Merriweather/fonts/merriweather-bold-webfont.ttf") format("truetype"), url("../project-04/fonts/Merriweather/fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Merriweather Web";
-  src: url("../project-04/fonts/Merriweather/fonts/merriweather-bolditalic-webfont.eot");
-  src: url("../project-04/fonts/Merriweather/fonts/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../project-04/fonts/Merriweather/fonts/merriweather-bolditalic-webfont.woff2") format("woff2"), url("../project-04/fonts/Merriweather/fonts/merriweather-bolditalic-webfont.woff") format("woff"), url("../project-04/fonts/Merriweather/fonts/merriweather-bolditalic-webfont.ttf") format("truetype"), url("../project-04/fonts/Merriweather/fonts/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
-  font-weight: bold;
-  font-style: italic; }
-
-@font-face {
-  font-family: "Novecento Sans Web";
-  src: url("../project-04/fonts/Novecento/fonts/novecentosanswide-normal-webfont.eot");
-  src: url("../project-04/fonts/Novecento/fonts/novecentosanswide-normal-webfont.eot?#iefix") format("embedded-opentype"), url("../project-04/fonts/Novecento/fonts/novecentosanswide-normal-webfont.woff2") format("woff2"), url("../project-04/fonts/Novecento/fonts/novecentosanswide-normal-webfont.woff") format("woff"), url("../project-04/fonts/Novecento/fonts/novecentosanswide-normal-webfont.ttf") format("truetype"), url("../project-04/fonts/Novecento/fonts/novecentosanswide-normal-webfont.svg#novecento_sans_widenormal") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Novecento Sans Web";
-  src: url("../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.eot");
-  src: url("../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.eot?#iefix") format("embedded-opentype"), url("../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.woff2") format("woff2"), url("../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.woff") format("woff"), url("../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.ttf") format("truetype"), url("../project-04/fonts/Novecento/fonts/novecentosanswide-demibold-webfont.svg#novecento_sans_widedemibold") format("svg");
-  font-weight: bold;
-  font-style: normal; }
-
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -345,13 +305,9 @@ body h4,
 body h5,
 body h6 {
   font-family: "Novecento Sans Web"; }
-  body h1 p,
-  body h2 p,
-  body h3 p,
-  body h4 p,
-  body h5 p,
-  body h6 p {
-    font-family: "Merriweather Web"; }
+
+body p {
+  font-family: "Merriweather Web"; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -744,7 +700,7 @@ object {
   width: 1120px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 5fr 4fr; }
+  grid-template-columns: 1fr 5fr 5fr; }
   .nav-container .logo {
     justify-self: stretch;
     -ms-flex-item-align: center;
@@ -752,14 +708,16 @@ object {
     .nav-container .logo img {
       width: 50px; }
   .nav-container .main-navigation {
-    grid-column: 3;
-    -ms-flex-item-align: center;
-        align-self: center; }
+    grid-column: 3; }
     .nav-container .main-navigation li {
+      -ms-flex-item-align: center;
+          align-self: center;
       padding-right: 1rem; }
 
 .hero-img {
-  position: relative; }
+  margin-top: -82px;
+  position: relative;
+  z-index: -1; }
   .hero-img .wp-post-image {
     height: auto; }
   .hero-img .hero-logo {
@@ -774,15 +732,34 @@ object {
   width: 1120px;
   margin: 0 auto; }
   .front-page-wrapper h2 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center; }
+  .front-page-wrapper .product-type {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5rem; }
+    .front-page-wrapper .product-type .product-icon {
+      display: grid;
+      grid-template-rows: 25% 1fr 20%;
+      border-color: #e1e1e1;
+      border-style: solid;
+      border-width: 5px 1px 1px 1px; }
+      .front-page-wrapper .product-type .product-icon img {
+        width: 70px;
+        justify-self: center; }
+      .front-page-wrapper .product-type .product-icon p {
+        text-align: center;
+        padding: 0 1rem; }
+      .front-page-wrapper .product-type .product-icon .btn {
+        text-transform: capitalize; }
   .front-page-wrapper .journals {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
     .front-page-wrapper .journals .single-journal {
-      -webkit-box-flex: 1;
-          -ms-flex-positive: 1;
-              flex-grow: 1; }
+      -webkit-box-flex: 2;
+          -ms-flex-positive: 2;
+              flex-grow: 2; }
       .front-page-wrapper .journals .single-journal:nth-child(2) {
         margin: 0 1.6rem; }
       .front-page-wrapper .journals .single-journal .journal-img {
@@ -792,11 +769,42 @@ object {
         border-color: #e1e1e1;
         border-style: solid;
         border-width: 5px 1px 1px 1px; }
+        .front-page-wrapper .journals .single-journal .journal-detail h3 {
+          margin: 0; }
+        .front-page-wrapper .journals .single-journal .journal-detail p {
+          margin: 0; }
       .front-page-wrapper .journals .single-journal .journal-container {
         height: 200px; }
       .front-page-wrapper .journals .single-journal img {
         height: 100%;
         width: auto; }
+  .front-page-wrapper .adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 12fr 12fr;
+    grid-template-areas: "canoe canoe beach beach" "canoe canoe view gaze";
+    grid-gap: 10px;
+    height: 555px; }
+    .front-page-wrapper .adventure .canoe {
+      grid-area: canoe;
+      background-image: url("../../../inhabitent/project-04/images/adventure-photos/canoe-girl.jpg");
+      background-size: cover;
+      background-position: center; }
+    .front-page-wrapper .adventure .beach {
+      grid-area: beach;
+      background-image: url("../../../inhabitent/project-04/images/adventure-photos/beach-bonfire.jpg");
+      background-size: cover;
+      background-position: center; }
+    .front-page-wrapper .adventure .view {
+      grid-area: view;
+      background-image: url("../../../inhabitent/project-04/images/adventure-photos/mountain-hikers.jpg");
+      background-size: cover;
+      background-position: center; }
+    .front-page-wrapper .adventure .gaze {
+      grid-area: gaze;
+      background-image: url("../../../inhabitent/project-04/images/adventure-photos/night-sky.jpg");
+      background-size: cover;
+      background-position: center; }
 
 body {
   font-size: 1em;
@@ -805,9 +813,11 @@ body {
     color: #248a83; }
 
 .hero-about {
+  margin-top: -82px;
+  z-index: -1;
   position: relative; }
   .hero-about .wp-post-image {
-    height: 100vh; }
+    height: auto; }
   .hero-about .about-title {
     position: absolute;
     z-index: 99;
@@ -837,23 +847,42 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-
-.journal-posts {
-  padding-right: 5rem; }
-  .journal-posts .entry-header {
-    position: relative; }
-    .journal-posts .entry-header .journal-title {
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: #248a83; }
-    .journal-posts .entry-header .entry-meta {
-      position: absolute;
-      bottom: 0;
-      left: 330px;
-      background-color: #248a83; }
-  .journal-posts .entry-content {
-    width: 640px; }
+  .journal-page .journal-posts {
+    padding-right: 3rem;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    border-right: 1px solid #e1e1e1; }
+    .journal-page .journal-posts .entry-header {
+      position: relative; }
+      .journal-page .journal-posts .entry-header img {
+        width: 100%; }
+      .journal-page .journal-posts .entry-header .journal-title {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        background-color: #248a83; }
+        .journal-page .journal-posts .entry-header .journal-title h2 {
+          font-family: "Novecento Sans Web";
+          font-size: 2rem; }
+          .journal-page .journal-posts .entry-header .journal-title h2 a {
+            color: #fff;
+            text-decoration: none; }
+      .journal-page .journal-posts .entry-header .entry-meta {
+        position: absolute;
+        bottom: 9px;
+        right: 0;
+        background-color: #248a83; }
+        .journal-page .journal-posts .entry-header .entry-meta p {
+          font-family: "Novecento Sans Web";
+          text-transform: uppercase;
+          color: #fff;
+          margin: 0;
+          padding: 0 1rem; }
+    .journal-page .journal-posts .entry-content {
+      width: 690px; }
+  .journal-page .side-bar {
+    padding: 0 0 0 2rem; }
 
 .products-grid {
   width: 1120px;
@@ -880,15 +909,18 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .journal-page .journal-n-comments {
-    border-right: 1px solid #e1e1e1; }
-  .journal-page .comment-author-avatar img {
-    border-radius: 40px; }
 
-.journal-posts {
-  padding-right: 5rem; }
-  .journal-posts .entry-content {
-    width: 640px; }
+.journal-n-comments {
+  padding-right: 3rem;
+  border-right: 1px solid #e1e1e1; }
+  .journal-n-comments img {
+    width: 100%; }
+  .journal-n-comments .journal-posts {
+    padding: 0;
+    border: none;
+    width: 690px; }
+  .journal-n-comments .comment-author-avatar img {
+    border-radius: 40px; }
 
 .product {
   margin: 0 auto;
@@ -924,7 +956,10 @@ body {
     margin: 0; }
 
 .site-footer {
-  background-image: url("../../../inhabitent/project-04/images/dark-wood@2x.png"); }
+  background-image: url("../../../inhabitent/project-04/images/dark-wood@2x.png");
+  background-size: 512px 512px;
+  padding: 2rem 0;
+  color: #fff; }
   .site-footer .footer-container {
     width: 1120px;
     margin: 0 auto;
@@ -942,9 +977,13 @@ body {
       padding-right: 2rem; }
       .site-footer .footer-container .contact i {
         padding-right: 1rem; }
+      .site-footer .footer-container .contact a {
+        color: #fff;
+        text-decoration: none; }
     .site-footer .footer-container .hours {
       text-transform: capitalize; }
     .site-footer .footer-container h3 {
+      color: #d99054;
       text-transform: uppercase; }
     .site-footer .footer-container .hours {
       -webkit-box-flex: 2;
@@ -955,6 +994,7 @@ body {
       height: 15%;
       padding-top: 1.8rem; }
   .site-footer .copyright {
+    font-family: "Novecento Sans Web";
     text-transform: uppercase;
     text-align: center;
     margin: 0; }
