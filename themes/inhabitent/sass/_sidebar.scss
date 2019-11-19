@@ -1,9 +1,24 @@
-.widget_archive {
-  ul {
+.side-bar {
+  a {
+    text-decoration: none;
+    font-family: "Merriweather Web";
+  }
+  p {
     margin: 0;
-    padding: 0;
-    li {
-      list-style: none;
+    padding: 0 0 1rem 0;
+  }
+  i {
+    padding-right: 1rem;
+  }
+  .custom-html-widget {
+  }
+  .widget_archive {
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+      }
     }
   }
 }

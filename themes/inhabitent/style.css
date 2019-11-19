@@ -832,10 +832,21 @@ body {
   .about-desc p:nth-child(4) {
     text-align: center; }
 
-.widget_archive ul {
+.side-bar a {
+  text-decoration: none;
+  font-family: "Merriweather Web"; }
+
+.side-bar p {
+  margin: 0;
+  padding: 0 0 1rem 0; }
+
+.side-bar i {
+  padding-right: 1rem; }
+
+.side-bar .widget_archive ul {
   margin: 0;
   padding: 0; }
-  .widget_archive ul li {
+  .side-bar .widget_archive ul li {
     list-style: none; }
 
 .journal-page {
@@ -884,21 +895,47 @@ body {
   .journal-page .side-bar {
     padding: 0 0 0 2rem; }
 
-.products-grid {
+.shop-container {
   width: 1120px;
-  margin: 0 auto;
-  padding-top: 3rem;
-  border-top: 1px dashed #c8c8c8;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 3rem; }
-  .products-grid .products img {
-    width: 100vw; }
-  .products-grid .products p {
-    margin: 0;
-    padding: 2rem;
-    border: 1px solid #e1e1e1; }
+  margin: 0 auto; }
+  .shop-container .shop-page {
+    text-align: center;
+    padding-bottom: 2rem; }
+    .shop-container .shop-page .product-cat {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      padding-left: 0;
+      width: 300px;
+      margin: 0 auto; }
+      .shop-container .shop-page .product-cat li {
+        list-style: none; }
+        .shop-container .shop-page .product-cat li a {
+          text-decoration: none;
+          color: #248a83;
+          text-transform: uppercase;
+          font-family: "Novecento Sans Web";
+          font-size: 1.18rem; }
+  .shop-container .products-grid {
+    padding-top: 3rem;
+    border-top: 1px dashed #c8c8c8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 3rem; }
+    .shop-container .products-grid .products img {
+      width: 100vw; }
+    .shop-container .products-grid .products p {
+      margin: 0;
+      padding: 2rem 0;
+      border: 1px solid #e1e1e1; }
 
 .journal-page {
   width: 1120px;

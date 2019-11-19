@@ -1,20 +1,44 @@
-.products-grid {
+.shop-container {
   width: 1120px;
   margin: 0 auto;
-  padding-top: 3rem;
-  border-top: 1px dashed #c8c8c8;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-gap: 3rem;
-  .products {
-    img {
-      width: 100vw;
+  .shop-page {
+    text-align: center;
+    padding-bottom: 2rem;
+    .product-cat {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding-left: 0;
+      width: 300px;
+      margin: 0 auto;
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: $green-brand;
+          text-transform: $uppercase;
+          font-family: "Novecento Sans Web";
+          font-size: 1.18rem;
+        }
+      }
     }
-    p {
-      margin: 0;
-      padding: 2rem;
-      border: 1px solid #e1e1e1;
+  }
+  .products-grid {
+    padding-top: 3rem;
+    border-top: 1px dashed #c8c8c8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    .products {
+      img {
+        width: 100vw;
+      }
+      p {
+        margin: 0;
+        padding: 2rem 0;
+        border: 1px solid #e1e1e1;
+      }
     }
   }
 }
