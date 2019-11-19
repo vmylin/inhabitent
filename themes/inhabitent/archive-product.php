@@ -44,14 +44,8 @@ get_header(); ?>
 					<?php while ($shop->have_posts()) : $shop->the_post(); ?>
 						<div class="products">
 							<a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
-							<p>
-								<div class="item-inner">
-									<div class="dots-after"><span><?php the_title(); ?></span>
-										<div class="price">$<?php the_field('price') ?>
-										</div>
-									</div>
-								</div>
-							</p>
+
+							<p><?php the_title(); ?> $<?php the_field('price') ?></p>
 						</div>
 					<?php endwhile; ?>
 				</div>

@@ -992,6 +992,32 @@ body {
   .contact-page .contact-content figure {
     margin: 0; }
 
+.error-404 {
+  width: 1120px;
+  margin: 0 auto; }
+  .error-404 .error-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .error-404 .error-wrapper .page-content {
+      margin: 0;
+      padding-right: 3rem;
+      border-right: 1px solid #e1e1e1; }
+      .error-404 .error-wrapper .page-content h1 {
+        margin: 0; }
+      .error-404 .error-wrapper .page-content ul {
+        margin: 0;
+        padding: 0; }
+        .error-404 .error-wrapper .page-content ul li {
+          list-style: none;
+          font-family: "Merriweather Web"; }
+          .error-404 .error-wrapper .page-content ul li a {
+            text-decoration: none; }
+    .error-404 .error-wrapper .widget-area {
+      padding-left: 3rem; }
+      .error-404 .error-wrapper .widget-area .widget-title {
+        margin-top: 0; }
+
 .site-footer {
   background-image: url("../../../inhabitent/project-04/images/dark-wood@2x.png");
   background-size: 512px 512px;

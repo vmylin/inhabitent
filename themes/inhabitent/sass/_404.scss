@@ -1,0 +1,32 @@
+.error-404 {
+  width: 1120px;
+  margin: 0 auto;
+  .error-wrapper {
+    display: flex;
+    .page-content {
+      margin: 0;
+      padding-right: 3rem;
+      border-right: $grey-border;
+      h1 {
+        margin: 0;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          font-family: "Merriweather Web";
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .widget-area {
+      padding-left: 3rem;
+      .widget-title {
+        margin-top: 0;
+      }
+    }
+  }
+}
