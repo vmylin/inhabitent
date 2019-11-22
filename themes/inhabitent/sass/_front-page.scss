@@ -99,12 +99,18 @@
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/beach-bonfire.jpg");
       background-size: cover;
       background-position: center;
+      h3 {
+        font-size: $fontsize * 2;
+      }
     }
     .view {
       grid-area: view;
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/mountain-hikers.jpg");
       background-size: cover;
       background-position: center;
+      h3 {
+        font-size: $fontsize * 1.8;
+      }
     }
     .gaze {
       grid-area: gaze;
@@ -117,6 +123,7 @@
       font-weight: 400;
       padding: 0 $padding;
       color: #fff;
+      margin: $margin * 1 0;
     }
     a {
       display: inline-block;

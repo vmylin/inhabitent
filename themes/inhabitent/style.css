@@ -797,11 +797,15 @@ object {
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/beach-bonfire.jpg");
       background-size: cover;
       background-position: center; }
+      .front-page-wrapper .adventure .beach h3 {
+        font-size: 2rem; }
     .front-page-wrapper .adventure .view {
       grid-area: view;
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/mountain-hikers.jpg");
       background-size: cover;
       background-position: center; }
+      .front-page-wrapper .adventure .view h3 {
+        font-size: 1.8rem; }
     .front-page-wrapper .adventure .gaze {
       grid-area: gaze;
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/night-sky.jpg");
@@ -811,7 +815,8 @@ object {
       font-family: "Merriweather Web";
       font-weight: 400;
       padding: 0 1rem;
-      color: #fff; }
+      color: #fff;
+      margin: 1rem 0; }
     .front-page-wrapper .adventure a {
       display: inline-block;
       text-decoration: none;
@@ -821,10 +826,10 @@ object {
       color: #fff;
       margin: 0 1rem; }
 
-body {
-  font-size: 1em;
+html, body {
+  font-size: 1rem;
   line-height: 1.75; }
-  body a {
+  html a, body a {
     color: #248a83;
     font-family: "Novecento Sans Web";
     text-transform: uppercase; }
