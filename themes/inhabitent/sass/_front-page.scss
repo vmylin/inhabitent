@@ -91,11 +91,7 @@
       background-size: cover;
       background-position: center;
       h3 {
-        font-family: $parafont;
         font-size: $fontsize * 3;
-        font-weight: 400;
-        color: #fff;
-        padding: 0 $padding;
       }
     }
     .beach {
@@ -115,6 +111,12 @@
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/night-sky.jpg");
       background-size: cover;
       background-position: center;
+    }
+    h3 {
+      font-family: $parafont;
+      font-weight: 400;
+      padding: 0 $padding;
+      color: #fff;
     }
     a {
       display: inline-block;

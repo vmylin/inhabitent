@@ -791,11 +791,7 @@ object {
       background-size: cover;
       background-position: center; }
       .front-page-wrapper .adventure .canoe h3 {
-        font-family: "Merriweather Web";
-        font-size: 3rem;
-        font-weight: 400;
-        color: #fff;
-        padding: 0 1rem; }
+        font-size: 3rem; }
     .front-page-wrapper .adventure .beach {
       grid-area: beach;
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/beach-bonfire.jpg");
@@ -811,13 +807,19 @@ object {
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/night-sky.jpg");
       background-size: cover;
       background-position: center; }
+    .front-page-wrapper .adventure h3 {
+      font-family: "Merriweather Web";
+      font-weight: 400;
+      padding: 0 1rem;
+      color: #fff; }
     .front-page-wrapper .adventure a {
       display: inline-block;
       text-decoration: none;
       text-transform: capitalize;
       border: 1px solid #fff;
       padding: 0.5rem 1rem;
-      color: #fff; }
+      color: #fff;
+      margin: 0 1rem; }
 
 body {
   font-size: 1em;
