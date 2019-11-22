@@ -21,11 +21,11 @@
       }
     }
     .hours {
-      text-transform: $capitalize;
+      text-transform: $capital;
     }
     h3 {
       color: $orange-brand;
-      text-transform: $uppercase;
+      text-transform: $UC;
     }
     .hours {
       flex-grow: 2;
@@ -38,8 +38,8 @@
   }
 
   .copyright {
-    font-family: "Novecento Sans Web";
-    text-transform: $uppercase;
+    font-family: $headfont;
+    text-transform: $UC;
     text-align: center;
     margin: 0;
   }

@@ -83,13 +83,20 @@
     grid-template-areas:
       "canoe canoe beach beach"
       "canoe canoe view gaze";
-    grid-gap: 10px;
+    grid-gap: $padding;
     height: 555px;
     .canoe {
       grid-area: canoe;
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/canoe-girl.jpg");
       background-size: cover;
       background-position: center;
+      h3 {
+        font-family: $parafont;
+        font-size: $fontsize * 3;
+        font-weight: 400;
+        color: #fff;
+        padding: 0 $padding;
+      }
     }
     .beach {
       grid-area: beach;
@@ -108,6 +115,14 @@
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/night-sky.jpg");
       background-size: cover;
       background-position: center;
+    }
+    a {
+      display: inline-block;
+      text-decoration: none;
+      text-transform: $capital;
+      border: 1px solid #fff;
+      padding: $padding * 0.5 $padding * 1;
+      color: #fff;
     }
   }
 }

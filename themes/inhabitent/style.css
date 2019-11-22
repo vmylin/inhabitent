@@ -783,13 +783,19 @@ object {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 12fr 12fr;
     grid-template-areas: "canoe canoe beach beach" "canoe canoe view gaze";
-    grid-gap: 10px;
+    grid-gap: 1rem;
     height: 555px; }
     .front-page-wrapper .adventure .canoe {
       grid-area: canoe;
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/canoe-girl.jpg");
       background-size: cover;
       background-position: center; }
+      .front-page-wrapper .adventure .canoe h3 {
+        font-family: "Merriweather Web";
+        font-size: 3rem;
+        font-weight: 400;
+        color: #fff;
+        padding: 0 1rem; }
     .front-page-wrapper .adventure .beach {
       grid-area: beach;
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/beach-bonfire.jpg");
@@ -805,12 +811,21 @@ object {
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/night-sky.jpg");
       background-size: cover;
       background-position: center; }
+    .front-page-wrapper .adventure a {
+      display: inline-block;
+      text-decoration: none;
+      text-transform: capitalize;
+      border: 1px solid #fff;
+      padding: 0.5rem 1rem;
+      color: #fff; }
 
 body {
   font-size: 1em;
   line-height: 1.75; }
   body a {
-    color: #248a83; }
+    color: #248a83;
+    font-family: "Novecento Sans Web";
+    text-transform: uppercase; }
 
 .hero-about {
   margin-top: -82px;

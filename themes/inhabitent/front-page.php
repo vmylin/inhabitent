@@ -89,19 +89,19 @@
 				<h2>Latest Adventures</h2>
 				<div class="adventure">
 					<div class="canoe">
-						<p>Getting Back to Nature in a Canoe</p>
+						<h3>Getting Back to Nature in a Canoe</h3>
 						<a href="#">Read more</a>
 					</div>
 					<div class="beach">
-						<p>A Night with Friends at the Beach</p>
+						<h3>A Night with Friends at the Beach</h3>
 						<a href="#">Read more</a>
 					</div>
 					<div class="view">
-						<p>Taking in the View at Big Mountain</p>
+						<h3>Taking in the View at Big Mountain</h3>
 						<a href="#">Read more</a>
 					</div>
 					<div class="gaze">
-						<p>Star-Gazing at the Night Sky</p>
+						<h3>Star-Gazing at the Night Sky</h3>
 						<a href="#">Read more</a>
 					</div>
 					<a href="#" class='adv-btn'>More Adventures</a>
