@@ -734,25 +734,32 @@ object {
   .front-page-wrapper h2 {
     text-transform: uppercase;
     text-align: center;
-    font-weight: 100; }
+    font-weight: 100;
+    font-size: 2.5rem; }
   .front-page-wrapper .product-type {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1.5rem; }
     .front-page-wrapper .product-type .product-icon {
       display: grid;
-      grid-template-rows: 25% 1fr 20%;
+      grid-template-rows: 4fr 4fr 1fr 1fr;
       border-color: #e1e1e1;
       border-style: solid;
       border-width: 5px 1px 1px 1px; }
       .front-page-wrapper .product-type .product-icon img {
+        -ms-flex-item-align: center;
+            align-self: center;
+        justify-self: center;
         width: 70px;
         justify-self: center; }
       .front-page-wrapper .product-type .product-icon p {
         text-align: center;
-        padding: 0 1rem; }
+        margin: 0; }
       .front-page-wrapper .product-type .product-icon .btn {
-        text-transform: capitalize; }
+        border: 1px solid #248a83;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        background-color: #248a83; }
   .front-page-wrapper .journals {
     display: -webkit-box;
     display: -ms-flexbox;
