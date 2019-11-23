@@ -746,6 +746,8 @@ object {
       border-color: #e1e1e1;
       border-style: solid;
       border-width: 5px 1px 1px 1px; }
+      .front-page-wrapper .product-type .product-icon:hover {
+        border-color: #d99054; }
       .front-page-wrapper .product-type .product-icon img {
         -ms-flex-item-align: center;
             align-self: center;
@@ -759,7 +761,10 @@ object {
         border: 1px solid #248a83;
         padding: 0.5rem 1rem;
         text-decoration: none;
-        background-color: #248a83; }
+        background-color: #248a83;
+        color: #fff; }
+        .front-page-wrapper .product-type .product-icon .btn:hover {
+          background-color: #19625d; }
   .front-page-wrapper .journals {
     display: -webkit-box;
     display: -ms-flexbox;
