@@ -18,8 +18,9 @@
   width: 1120px;
   margin: 0 auto;
   h2 {
-    text-transform: uppercase;
+    text-transform: $UC;
     text-align: center;
+    font-weight: 100;
   }
   .product-type {
     display: grid;
@@ -92,6 +93,7 @@
       background-position: center;
       h3 {
         font-size: $fontsize * 3;
+        line-height: 4rem;
       }
     }
     .beach {
@@ -100,7 +102,8 @@
       background-size: cover;
       background-position: center;
       h3 {
-        font-size: $fontsize * 2;
+        font-size: $fontsize * 2.5;
+        line-height: 4rem;
       }
     }
     .view {
@@ -109,7 +112,8 @@
       background-size: cover;
       background-position: center;
       h3 {
-        font-size: $fontsize * 1.8;
+        font-size: 1.8rem;
+        line-height: 2rem;
       }
     }
     .gaze {
@@ -117,6 +121,10 @@
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/night-sky.jpg");
       background-size: cover;
       background-position: center;
+      h3 {
+        font-size: $fontsize * 1.8;
+        line-height: 2.4rem;
+      }
     }
     h3 {
       font-family: $parafont;

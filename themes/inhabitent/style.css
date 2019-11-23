@@ -733,7 +733,8 @@ object {
   margin: 0 auto; }
   .front-page-wrapper h2 {
     text-transform: uppercase;
-    text-align: center; }
+    text-align: center;
+    font-weight: 100; }
   .front-page-wrapper .product-type {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -791,26 +792,32 @@ object {
       background-size: cover;
       background-position: center; }
       .front-page-wrapper .adventure .canoe h3 {
-        font-size: 3rem; }
+        font-size: 3rem;
+        line-height: 4rem; }
     .front-page-wrapper .adventure .beach {
       grid-area: beach;
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/beach-bonfire.jpg");
       background-size: cover;
       background-position: center; }
       .front-page-wrapper .adventure .beach h3 {
-        font-size: 2rem; }
+        font-size: 2.5rem;
+        line-height: 4rem; }
     .front-page-wrapper .adventure .view {
       grid-area: view;
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/mountain-hikers.jpg");
       background-size: cover;
       background-position: center; }
       .front-page-wrapper .adventure .view h3 {
-        font-size: 1.8rem; }
+        font-size: 1.8rem;
+        line-height: 2rem; }
     .front-page-wrapper .adventure .gaze {
       grid-area: gaze;
       background-image: url("../../../inhabitent/project-04/images/adventure-photos/night-sky.jpg");
       background-size: cover;
       background-position: center; }
+      .front-page-wrapper .adventure .gaze h3 {
+        font-size: 1.8rem;
+        line-height: 2.4rem; }
     .front-page-wrapper .adventure h3 {
       font-family: "Merriweather Web";
       font-weight: 400;
