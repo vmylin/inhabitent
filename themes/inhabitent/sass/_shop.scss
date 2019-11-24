@@ -32,12 +32,15 @@
     grid-gap: 3rem;
     .products {
       img {
-        width: 100vw;
+        object-fit: fill;
+        // width: 100vw;
       }
       p {
         margin: 0;
         padding: 2rem 0;
-        border: 1px solid #e1e1e1;
+        border-color: #e1e1e1;
+        border-style: solid;
+        border-width: 5px 1px 1px 1px;
       }
     }
   }

@@ -67,19 +67,26 @@
       }
       flex-grow: 2;
       .journal-img {
+        object-fit: fill;
         height: 300px;
         overflow: hidden;
       }
       .journal-detail {
+        padding: 1rem;
         border-color: #e1e1e1;
         border-style: solid;
         border-width: 5px 1px 1px 1px;
         h3 {
+          letter-spacing: 2px;
+          text-transform: $UC;
           margin: 0;
+          font-size: $fontsize * 1.4;
+          line-height: 1.5rem;
+          color: $green-brand;
         }
         p {
           margin: 0;
-          font-size: $fontsize * 0.8ç;
+          font-size: $fontsize * 0.8;
         }
       }
       .journal-container {

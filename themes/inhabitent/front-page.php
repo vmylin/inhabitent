@@ -62,15 +62,16 @@
 					<?php while ($journal->have_posts()) : $journal->the_post(); ?>
 						<div class="single-journal">
 							<div class="journal-img">
-								<?php the_post_thumbnail() //set_post_thumbnail_size(800,800,array( 'center', 'center')));
-										?>
+								<?php the_post_thumbnail(); ?>
+
 							</div>
 							<div class="journal-detail">
 								<?php $comment_number = get_comments_number(); ?>
 
 								<p><?php the_date(); ?> / <?php comments_number('0 Comments', '1 Comment', $comment_number . ' Comments'); ?></p>
 
-								<h3><?php the_title(); ?></h3>
+								<?php the_title(sprintf('<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h3>'); ?>
+								<?php sprintf('<p><a href="%s">', esc_url(get_permalink()), '</a></p>') ?>
 							</div>
 						</div>
 					<?php endwhile; ?>
