@@ -25,6 +25,6 @@
 
 	<div class="entry-content">
 		<?php the_excerpt(); ?>
+		<p><a href="<?php the_title(sprintf('%s', esc_url(get_permalink()))); ?>">Read More <i class="fas fa-long-arrow-alt-right"></i></a></p>
 	</div><!-- .entry-content -->
-	<p><a>Read More<i class="fas fa-long-arrow-alt-right"></i></a></p>
 </article><!-- #post-## -->

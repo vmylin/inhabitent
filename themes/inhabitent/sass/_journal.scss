@@ -17,15 +17,19 @@
         position: absolute;
         top: 30px;
         left: 0;
-        background-color: $green-brand;
         h2 {
+          background-color: $green-brand;
           font-family: $headfont;
           font-size: 2rem;
           max-width: 75%;
           line-height: 2.4rem;
+          padding: $padding;
           a {
             color: #fff;
             text-decoration: none;
+            &:hover {
+              color: $orangehover;
+            }
           }
         }
       }
@@ -45,6 +49,18 @@
     }
     .entry-content {
       width: 690px;
+      a {
+        border: 1px solid #000;
+        padding: $padding * 0.8 $padding * 1.8;
+        text-decoration: none;
+        color: #000;
+        font-size: $fontsize * 0.8;
+        &:hover {
+          color: #fff;
+          background-color: $green-brand;
+          border: 1px solid $green-brand;
+        }
+      }
     }
   }
   .side-bar {

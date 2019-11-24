@@ -923,16 +923,19 @@ body {
       .journal-page .journal-posts .entry-header .journal-title {
         position: absolute;
         top: 30px;
-        left: 0;
-        background-color: #248a83; }
+        left: 0; }
         .journal-page .journal-posts .entry-header .journal-title h2 {
+          background-color: #248a83;
           font-family: "Novecento Sans Web";
           font-size: 2rem;
           max-width: 75%;
-          line-height: 2.4rem; }
+          line-height: 2.4rem;
+          padding: 1rem; }
           .journal-page .journal-posts .entry-header .journal-title h2 a {
             color: #fff;
             text-decoration: none; }
+            .journal-page .journal-posts .entry-header .journal-title h2 a:hover {
+              color: #f0e4d1; }
       .journal-page .journal-posts .entry-header .entry-meta {
         position: absolute;
         bottom: 9px;
@@ -946,6 +949,16 @@ body {
           padding: 0 1rem; }
     .journal-page .journal-posts .entry-content {
       width: 690px; }
+      .journal-page .journal-posts .entry-content a {
+        border: 1px solid #000;
+        padding: 0.8rem 1.8rem;
+        text-decoration: none;
+        color: #000;
+        font-size: 0.8rem; }
+        .journal-page .journal-posts .entry-content a:hover {
+          color: #fff;
+          background-color: #248a83;
+          border: 1px solid #248a83; }
   .journal-page .side-bar {
     padding: 0 0 0 2rem; }
 
