@@ -25,7 +25,7 @@ get_header(); ?>
 								<!-- meow :3 -->
 
 								<?php foreach ($terms as $term) : ?>
-									<li><a href="<?php echo get_permalink(); ?>"><?php echo $term->name; ?></a></li>
+									<li><a href="<?php echo get_term_link($term); ?>"><?php echo $term->name; ?></a></li>
 								<?php endforeach; ?>
 							</ul>
 						</div>
