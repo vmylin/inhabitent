@@ -11,13 +11,15 @@
     justify-content: flex-start;
 
     .contact {
-      padding-right: 2rem;
+      padding-right: $padding * 2;
       i {
-        padding-right: 1rem;
+        padding-right: $padding * 0.5;
       }
       & a {
+        font-family: $parafont;
         color: #fff;
         text-decoration: none;
+        text-transform: lowercase;
       }
     }
     .hours {

@@ -1,16 +1,21 @@
 .side-bar {
+  padding-left: $padding * 3;
   a {
     text-decoration: none;
     font-family: "Merriweather Web";
+    text-transform: capitalize;
   }
   p {
     margin: 0;
     padding: 0 0 1rem 0;
   }
   i {
-    padding-right: 1rem;
+    padding: 0 $padding $padding 0;
   }
   .custom-html-widget {
+    a {
+      text-transform: lowercase;
+    }
   }
   .widget_archive {
     ul {

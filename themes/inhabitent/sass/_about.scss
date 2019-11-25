@@ -1,16 +1,20 @@
 .hero-about {
+  h1 {
+    color: #fff;
+    font-size: $fontsize * 3;
+  }
   margin-top: -82px;
   z-index: -1;
   position: relative;
   .wp-post-image {
     height: auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
   }
   .about-title {
     position: absolute;
     z-index: 99;
     top: 50%;
-    left: 50%;
-    // margin-top: -186px;
+    left: 49%;
     margin-left: -50px;
   }
 }

@@ -4,11 +4,18 @@
   display: flex;
   justify-content: space-between;
   .contact-content {
+    padding-right: $padding * 3;
+    border-right: $grey-border;
     .entry-content {
       width: 760px;
     }
     p {
-      text-transform: uppercase;
+      text-transform: lowercase;
+    }
+    form {
+      p {
+        text-transform: uppercase;
+      }
     }
     // p:nth-child(3) {
     //   text-transform: initial;

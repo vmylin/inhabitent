@@ -868,13 +868,18 @@ body {
   margin-top: -82px;
   z-index: -1;
   position: relative; }
+  .hero-about h1 {
+    color: #fff;
+    font-size: 3rem; }
   .hero-about .wp-post-image {
-    height: auto; }
+    height: auto;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4)));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%); }
   .hero-about .about-title {
     position: absolute;
     z-index: 99;
     top: 50%;
-    left: 50%;
+    left: 49%;
     margin-left: -50px; }
 
 .about-desc {
@@ -884,22 +889,24 @@ body {
   .about-desc p:nth-child(4) {
     text-align: center; }
 
-.side-bar a {
-  text-decoration: none;
-  font-family: "Merriweather Web"; }
-
-.side-bar p {
-  margin: 0;
-  padding: 0 0 1rem 0; }
-
-.side-bar i {
-  padding-right: 1rem; }
-
-.side-bar .widget_archive ul {
-  margin: 0;
-  padding: 0; }
-  .side-bar .widget_archive ul li {
-    list-style: none; }
+.side-bar {
+  padding-left: 3rem; }
+  .side-bar a {
+    text-decoration: none;
+    font-family: "Merriweather Web";
+    text-transform: capitalize; }
+  .side-bar p {
+    margin: 0;
+    padding: 0 0 1rem 0; }
+  .side-bar i {
+    padding: 0 1rem 1rem 0; }
+  .side-bar .custom-html-widget a {
+    text-transform: lowercase; }
+  .side-bar .widget_archive ul {
+    margin: 0;
+    padding: 0; }
+    .side-bar .widget_archive ul li {
+      list-style: none; }
 
 .journal-page {
   width: 1120px;
@@ -954,7 +961,7 @@ body {
         padding: 0.8rem 1.8rem;
         text-decoration: none;
         color: #000;
-        font-size: 0.8rem; }
+        font-size: 0.9rem; }
         .journal-page .journal-posts .entry-content a:hover {
           color: #fff;
           background-color: #248a83;
@@ -1055,12 +1062,17 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .contact-page .contact-content .entry-content {
-    width: 760px; }
-  .contact-page .contact-content p {
-    text-transform: uppercase; }
-  .contact-page .contact-content figure {
-    margin: 0; }
+  .contact-page .contact-content {
+    padding-right: 3rem;
+    border-right: 1px solid #e1e1e1; }
+    .contact-page .contact-content .entry-content {
+      width: 760px; }
+    .contact-page .contact-content p {
+      text-transform: lowercase; }
+    .contact-page .contact-content form p {
+      text-transform: uppercase; }
+    .contact-page .contact-content figure {
+      margin: 0; }
 
 .error-404 {
   width: 1120px;
@@ -1109,10 +1121,12 @@ body {
     .site-footer .footer-container .contact {
       padding-right: 2rem; }
       .site-footer .footer-container .contact i {
-        padding-right: 1rem; }
+        padding-right: 0.5rem; }
       .site-footer .footer-container .contact a {
+        font-family: "Merriweather Web";
         color: #fff;
-        text-decoration: none; }
+        text-decoration: none;
+        text-transform: lowercase; }
     .site-footer .footer-container .hours {
       text-transform: capitalize; }
     .site-footer .footer-container h3 {
