@@ -1,0 +1,12 @@
+.tax-products {
+  width: 1120px;
+  margin: 0 auto;
+  .page-header {
+    text-align: center;
+  }
+  .tax-grid {
+    width: 1120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
