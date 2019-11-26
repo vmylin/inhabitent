@@ -3,30 +3,30 @@
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
         <?php if (have_posts()) : ?>
+            <div class="tax-products">
+                <header class="page-header">
+                    <?php
+                        the_archive_title('<h1 class="page-title">', '</h1>');
 
-            <header class="page-header">
-                <?php
+                        the_archive_description('<div class="taxonomy-description">', '</div>');
+                        ?>
+                </header><!-- .page-header -->
 
-                    the_archive_title('<h1 class="page-title">', '</h1>');
+                <?php /* Start the Loop */ ?>
+                <div class="tax-grid">
+                    <?php while (have_posts()) : the_post(); ?>
+                        <?php get_template_part('template-parts/content', 'taxonomy'); ?>
+                    <?php endwhile; ?>
 
-                    the_archive_description('<div class="taxonomy-description">', '</div>');
-                    ?>
-            </header><!-- .page-header -->
+                    <?php the_posts_navigation(); ?>
 
-            <?php /* Start the Loop */ ?>
-            <?php while (have_posts()) : the_post(); ?>
+                <?php else : ?>
 
-                <?php get_template_part('template-parts/content', 'taxonomy'); ?>
-            <?php endwhile; ?>
+                    <?php get_template_part('template-parts/content', 'none'); ?>
 
-            <?php the_posts_navigation(); ?>
-
-        <?php else : ?>
-
-            <?php get_template_part('template-parts/content', 'none'); ?>
-
-        <?php endif; ?>
-
+                <?php endif; ?>
+                </div>
+            </div>
     </main><!-- #main -->
 </div><!-- #primary -->
 
