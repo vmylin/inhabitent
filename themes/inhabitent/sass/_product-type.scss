@@ -8,5 +8,11 @@
     width: 1120px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: $padding;
+    .wp-post-image {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
   }
 }
