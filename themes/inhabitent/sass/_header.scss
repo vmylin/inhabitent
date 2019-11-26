@@ -1,20 +1,36 @@
 .nav-container {
   width: 1120px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 3fr 5fr;
-  .logo {
-    justify-self: stretch;
-    align-self: center;
-    img {
-      width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .main-navigation {
+    display: flex;
+    li {
+      padding-right: $padding * 1.5;
+      &:last-child {
+        padding: 0;
+      }
     }
   }
-  .main-navigation {
-    grid-column: 3;
-    li {
-      align-self: center;
-      padding-right: 1rem;
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    .search-submit {
+      box-shadow: none;
+      text-shadow: none;
+      border: none;
+      border-radius: 0;
+      background: none;
+      padding: 0 $padding;
+      i {
+        font-size: $fontsize;
+        padding: 0;
+      }
+    }
+    .search-field {
+      display: none;
     }
   }
 }
