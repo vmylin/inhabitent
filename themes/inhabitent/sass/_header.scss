@@ -1,3 +1,6 @@
+.border {
+  border-bottom: $grey-border;
+}
 .nav-container {
   width: 1120px;
   margin: 0 auto;
@@ -42,6 +45,7 @@
       i {
         font-size: $fontsize;
         padding: 0;
+        color: $green-brand;
       }
     }
     .search-field {
@@ -59,6 +63,11 @@
       &:hover {
         color: $orange-brand;
       }
+    }
+  }
+  .search-submit {
+    i {
+      color: $white;
     }
   }
 }

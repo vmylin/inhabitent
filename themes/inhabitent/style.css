@@ -694,6 +694,9 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.border {
+  border-bottom: 1px solid #e1e1e1; }
+
 .nav-container {
   width: 1120px;
   margin: 0 auto;
@@ -738,7 +741,8 @@ object {
       padding: 0 1rem; }
       .nav-container fieldset .search-submit i {
         font-size: 1rem;
-        padding: 0; }
+        padding: 0;
+        color: #248a83; }
     .nav-container fieldset .search-field {
       display: none; }
 
@@ -748,6 +752,9 @@ object {
     color: #fff; }
   .home-about .main-navigation li a:hover {
     color: #d99054; }
+
+.home-about .main-navigation .search-submit i {
+  color: #fff; }
 
 .hero-img {
   margin-top: -82px;
