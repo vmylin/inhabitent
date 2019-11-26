@@ -2,7 +2,7 @@
   background-image: url("../../../inhabitent/project-04/images/dark-wood@2x.png");
   background-size: 512px 512px;
   padding: 2rem 0;
-  color: #fff;
+  color: $white;
   .footer-container {
     width: 1120px;
     margin: 0 auto;
@@ -17,7 +17,7 @@
       }
       & a {
         font-family: $parafont;
-        color: #fff;
+        color: $white;
         text-decoration: none;
         text-transform: lowercase;
       }

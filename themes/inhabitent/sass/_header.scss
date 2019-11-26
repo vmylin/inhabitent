@@ -4,12 +4,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  .logo {
+    width: 50px;
+    img {
+      padding-top: $padding * 0.5;
+    }
+  }
   .main-navigation {
     display: flex;
     li {
       padding-right: $padding * 1.5;
       &:last-child {
         padding: 0;
+      }
+      a {
+        color: $green-brand;
+        &:visited {
+          color: $green-brand;
+        }
+        &:hover {
+          color: $purp-brand;
+        }
       }
     }
   }
@@ -31,6 +46,19 @@
     }
     .search-field {
       display: none;
+    }
+  }
+}
+.home-about .main-navigation {
+  li {
+    a {
+      color: $white;
+      &:visited {
+        color: $white;
+      }
+      &:hover {
+        color: $orange-brand;
+      }
     }
   }
 }

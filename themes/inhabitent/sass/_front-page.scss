@@ -52,7 +52,7 @@
         padding: $padding * 0.5 $padding;
         text-decoration: none;
         background-color: $green-brand;
-        color: #fff;
+        color: $white;
         &:hover {
           background-color: $greenhover;
         }
@@ -151,16 +151,16 @@
       font-family: $parafont;
       font-weight: 400;
       padding: 0 $padding;
-      color: #fff;
+      color: $white;
       margin: $margin * 1 0;
     }
     a {
       display: inline-block;
       text-decoration: none;
       text-transform: $capital;
-      border: 1px solid #fff;
+      border: 1px solid $white;
       padding: $padding * 0.5 $padding * 1;
-      color: #fff;
+      color: $white;
       margin: 0 $margin;
     }
   }
