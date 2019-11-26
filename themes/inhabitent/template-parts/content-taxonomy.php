@@ -14,7 +14,7 @@
             <?php the_post_thumbnail('large'); ?>
         <?php endif; ?>
 
-        <p><?php the_title(); ?></p>
+        <p><?php the_title(); ?> ................$<?php the_field('price') ?></p>
 
     </header><!-- .entry-header -->
 
