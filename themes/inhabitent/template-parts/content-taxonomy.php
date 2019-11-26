@@ -14,7 +14,7 @@
             <?php the_post_thumbnail('large'); ?>
         <?php endif; ?>
 
-        <?php the_title(sprintf('<p class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></p>'); ?>
+        <p><?php the_title(); ?></p>
 
     </header><!-- .entry-header -->
 
