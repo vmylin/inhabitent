@@ -1,6 +1,7 @@
 .shop-container {
   width: 1120px;
   margin: 0 auto;
+  padding-bottom: $padding * 3;
   .shop-page {
     text-align: center;
     padding-bottom: 2rem;
@@ -33,7 +34,9 @@
     .products {
       img {
         object-fit: cover;
-        // width: 100vw;
+        width: 100%;
+        height: 244px;
+        margin-bottom: -9px;
       }
       p {
         margin: 0;
