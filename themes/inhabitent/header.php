@@ -19,7 +19,11 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php
+
+		if (is_front_page() || is_page('about')) :
+
+			?> class="home-about" <?php else : ?> <?php body_class(); ?> <?php endif; ?>>
 	<div id="page" class="hfeed site">
 		<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html('Skip to content'); ?></a>
 
