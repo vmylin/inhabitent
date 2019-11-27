@@ -4,6 +4,7 @@
 .nav-container {
   width: 1120px;
   margin: 0 auto;
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,6 +16,8 @@
   }
   .main-navigation {
     display: flex;
+    transform: translateX(175px);
+
     li {
       padding-right: $padding * 1.5;
       &:last-child {
@@ -47,9 +50,6 @@
         padding: 0;
         color: $green-brand;
       }
-    }
-    .search-field {
-      display: none;
     }
   }
 }

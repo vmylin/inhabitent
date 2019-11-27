@@ -1,0 +1,61 @@
+.search-page {
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  .site-main {
+    padding-right: $padding * 3;
+    border-right: $grey-border;
+    .page-title {
+      border-bottom: $grey-border;
+      font-size: $fontsize * 2.5;
+      text-transform: $UC;
+      font-weight: 700;
+      padding-bottom: $padding * 2;
+    }
+    article {
+      width: 760px;
+      margin-bottom: $margin * 4;
+      a {
+        text-decoration: none;
+        &:visited {
+          color: $green-brand;
+        }
+      }
+      .entry-summary {
+        a {
+          border: 1px solid #000;
+          padding: $padding * 0.8 $padding * 1.8;
+          text-decoration: none;
+          color: #000;
+          font-size: $fontsize * 0.9;
+          &:hover {
+            color: $white;
+            background-color: $green-brand;
+            border: 1px solid $green-brand;
+          }
+        }
+      }
+    }
+    .search-pagination {
+      border-top: $grey-border;
+      padding: $padding * 3 0;
+      .page-numbers {
+        padding: $padding * 0.5 $padding * 0.8;
+        margin: $margin * 0.2;
+        background-color: $green-brand;
+        color: $white;
+        text-decoration: none;
+        &:hover {
+          background-color: $purp-brand;
+        }
+        &.current {
+          background-color: $med-grey-brand;
+          font-family: $headfont;
+        }
+      }
+    }
+  }
+  .side-bar {
+    padding-left: $padding * 3;
+  }
+}

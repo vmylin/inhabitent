@@ -700,6 +700,7 @@ object {
 .nav-container {
   width: 1120px;
   margin: 0 auto;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -716,7 +717,9 @@ object {
   .nav-container .main-navigation {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-transform: translateX(175px);
+            transform: translateX(175px); }
     .nav-container .main-navigation li {
       padding-right: 1.5rem; }
       .nav-container .main-navigation li:last-child {
@@ -743,8 +746,6 @@ object {
         font-size: 1rem;
         padding: 0;
         color: #248a83; }
-    .nav-container fieldset .search-field {
-      display: none; }
 
 .home-about .main-navigation li a {
   color: #fff; }
@@ -1144,6 +1145,55 @@ body {
       text-transform: uppercase; }
     .contact-page .contact-content figure {
       margin: 0; }
+
+.search-page {
+  width: 1120px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .search-page .site-main {
+    padding-right: 3rem;
+    border-right: 1px solid #e1e1e1; }
+    .search-page .site-main .page-title {
+      border-bottom: 1px solid #e1e1e1;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding-bottom: 2rem; }
+    .search-page .site-main article {
+      width: 760px;
+      margin-bottom: 4rem; }
+      .search-page .site-main article a {
+        text-decoration: none; }
+        .search-page .site-main article a:visited {
+          color: #248a83; }
+      .search-page .site-main article .entry-summary a {
+        border: 1px solid #000;
+        padding: 0.8rem 1.8rem;
+        text-decoration: none;
+        color: #000;
+        font-size: 0.9rem; }
+        .search-page .site-main article .entry-summary a:hover {
+          color: #fff;
+          background-color: #248a83;
+          border: 1px solid #248a83; }
+    .search-page .site-main .search-pagination {
+      border-top: 1px solid #e1e1e1;
+      padding: 3rem 0; }
+      .search-page .site-main .search-pagination .page-numbers {
+        padding: 0.5rem 0.8rem;
+        margin: 0.2rem;
+        background-color: #248a83;
+        color: #fff;
+        text-decoration: none; }
+        .search-page .site-main .search-pagination .page-numbers:hover {
+          background-color: #2f1339; }
+        .search-page .site-main .search-pagination .page-numbers.current {
+          background-color: #808080;
+          font-family: "Novecento Sans Web"; }
+  .search-page .side-bar {
+    padding-left: 3rem; }
 
 .error-404 {
   width: 1120px;
