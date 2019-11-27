@@ -30,7 +30,7 @@ This project teaches us how to create a custom WP Theme.
 
 1. HTML
 1. CSS
-1. PHP
+1. PHP 
 1. WP
 1. jQuery(once I add the search function)
 
